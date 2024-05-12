@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "your_region"
+  region = "us-east-1"
 }
 
 resource "aws_lambda_function" "hello_world_lambda" {
