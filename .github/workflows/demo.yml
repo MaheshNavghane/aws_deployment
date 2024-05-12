@@ -77,6 +77,6 @@ jobs:
             --function-name my-function \
             --runtime python3.8 \
             --role arn:aws:iam::339713087480:role/lambda-role \
-            --handler my-function.lambda_handler \
+            --handler demo.lambda_handler \
             --zip-file fileb://lambda_function.zip
 
